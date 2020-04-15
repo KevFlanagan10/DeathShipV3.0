@@ -20,7 +20,7 @@ public Transform lockOnTarget;
 
 public Transform enemyObj;
 
-public static int remainingMissiles = 10;
+public static int remainingMissiles = 100;
 //Can use this as a difficult setting with less missiles
 
 public Transform countObj; 
@@ -39,7 +39,7 @@ public Transform countObj;
         mousePosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
         objPosition = Camera.main.ScreenToWorldPoint (mousePosition);
         
-        if(Input.GetKeyDown (fireMissile))
+        if((Input.GetKeyDown (fireMissile)) && (remainingMissiles > 0))
         {
             Instantiate(MissileObj, new Vector2(0,-4),MissileObj.rotation);
             Instantiate(lockOnTarget, objPosition, lockOnTarget.rotation);

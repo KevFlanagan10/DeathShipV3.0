@@ -5,6 +5,12 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - defaultTexture: {fileID: 2800000, guid: 25663beccb28d174c8e05c4bb33ba0ff, type: 3}
+  - MissileObj: {fileID: 2176289446552228423, guid: bdd219d86f2bbca4fa5640a475a59541,
+      type: 3}
+  - lockOnTarget: {fileID: 4132660218102230083, guid: 7e06822a9af452249bb2999be4ef6df5,
+      type: 3}
+  - enemyObj: {instanceID: 0}
+  - countObj: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

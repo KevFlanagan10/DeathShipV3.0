@@ -349,6 +349,7 @@ GameObject:
   - component: {fileID: 1853996178}
   - component: {fileID: 1853996177}
   - component: {fileID: 1853996180}
+  - component: {fileID: 1853996181}
   m_Layer: 0
   m_Name: Comet
   m_TagString: Untagged
@@ -502,7 +503,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 2
+      scalar: 1.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5166,6 +5167,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &1853996181
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1853996176}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12946653, y: 0.116903305}
+  serializedVersion: 2
+  m_Radius: 0.81143665
 --- !u!1 &2054225878
 GameObject:
   m_ObjectHideFlags: 0
