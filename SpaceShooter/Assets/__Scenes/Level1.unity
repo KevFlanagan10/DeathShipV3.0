@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd575b09006dde428b1431a1489ceb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultTexture: {fileID: 2800000, guid: 25663beccb28d174c8e05c4bb33ba0ff, type: 3}
+  defaultTexture: {fileID: 2800000, guid: 422f1a8b2858cd74489b032221c35677, type: 3}
   curMode: 0
   hotSpot: {x: 0, y: 0}
   mousePosition: {x: 0, y: 0}
@@ -5310,7 +5310,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.21, y: 1.81}
+    oldSize: {x: 2.18, y: 2.51}
     newSize: {x: 1.21, y: 1.81}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5369,7 +5369,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9044f726ed2d723449fc3487c24cab40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1fe9d915d9d05cc4eaade81200c69fca, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5388,8 +5388,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2137908045}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.26, z: 0}
-  m_LocalScale: {x: 0.81256, y: 0.79576004, z: 0}
+  m_LocalPosition: {x: -0.026, y: -4.207, z: 0}
+  m_LocalScale: {x: 0.8369368, y: 0.83793527, z: 0}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
