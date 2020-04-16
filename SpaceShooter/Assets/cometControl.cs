@@ -8,6 +8,7 @@ public class cometControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //randomize comets
         cometEnemy = Random.Range(1,3);
 
         if(cometEnemy == 1)
@@ -25,5 +26,14 @@ public class cometControl : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.name == "BOOM(Clone)")
+        {
+            GameController.currentScore += 100;
+            Destroy(gameObject);
+        }
     }
 }

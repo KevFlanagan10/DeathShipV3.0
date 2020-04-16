@@ -9,7 +9,8 @@ MonoImporter:
       type: 3}
   - lockOnTarget: {fileID: 4132660218102230083, guid: 7e06822a9af452249bb2999be4ef6df5,
       type: 3}
-  - enemyObj: {instanceID: 0}
+  - enemyObj: {fileID: 2049804741333829175, guid: 3f5c9cbfd0dbbda4098d42ffec2b5a3d,
+      type: 3}
   - countObj: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}

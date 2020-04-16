@@ -18,6 +18,12 @@ public class TargetControl : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
+        if(other.gameObject.name == "missile(Clone)")
+        {
+            Destroy(gameObject);
+        }
+        
+            
+        
     }//this will destroy the crosshairs
 }
