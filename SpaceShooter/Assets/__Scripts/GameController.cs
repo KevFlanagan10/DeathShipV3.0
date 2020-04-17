@@ -20,7 +20,7 @@ public Transform lockOnTarget;
 
 public Transform enemyObj;//comet!
 
-public static int remainingMissiles = 100;
+public static int remainingMissiles = 20;
 //Can use this as a difficult setting with less missiles
 
 public float spawnTimer;
@@ -35,6 +35,9 @@ public Transform bossObj;
 public Transform countObj; 
 
 public string oneBoss = "n";
+
+//tried to up in a life bar
+//public int DamageValue { get { return damageValue; } }
 
     // Start is called before the first frame update
     void Start()
@@ -53,6 +56,9 @@ public string oneBoss = "n";
         mousePosition = new Vector2 (Input.mousePosition.x, Input.mousePosition.y);
         objPosition = Camera.main.ScreenToWorldPoint (mousePosition);
         scoreObj.GetComponent<TextMesh>().text = "Score: " + currentScore;
+
+        //Health bar/lives
+        //[SerializeField] private int damageValue = 10;
 
         if((Input.GetKeyDown (fireMissile)) && (remainingMissiles > 0))
         {

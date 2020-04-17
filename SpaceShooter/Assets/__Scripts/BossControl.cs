@@ -22,6 +22,7 @@ public class BossControl : MonoBehaviour
         if(other.gameObject.name == "BOOM(Clone)")
         {
             GameController.currentScore += 500;
+            //GameController.remainingMissiles + 5;//BONUS
             Destroy(gameObject);
         }
     }
